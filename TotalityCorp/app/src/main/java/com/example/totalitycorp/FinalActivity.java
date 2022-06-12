@@ -34,6 +34,7 @@ public class FinalActivity extends AppCompatActivity {
     // Optional customization: hide some tools you don't need as below
     // int[] toolsToHide = {DsPhotoEditorActivity.TOOL_ORIENTATION, DsPhotoEditorActivity.TOOL_CROP};
     //dsPhotoEditorIntent.putExtra(DsPhotoEditorConstants.DS_PHOTO_EDITOR_TOOLS_TO_HIDE, toolsToHide);
+        startActivityForResult(dsPhotoEditorIntent,200);
 }
 
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
